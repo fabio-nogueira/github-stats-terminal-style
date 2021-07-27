@@ -44,7 +44,7 @@ jobs:
           
       - name: Update Template
         run: |
-          python3 update_stats.py ${{ github.repository_owner }} 
+          python3 update_stats.py ${{ github.repository_owner }} --theme ubunutu
         env:
           GHT: ${{ secrets.GHT }}
           
